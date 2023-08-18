@@ -1,0 +1,100 @@
+Trainee 1st class
+Trainee 2nd class
+Private 1st class
+PFC 1st class
+Corporal 1st class
+Sergeant 1st class
+Sergeant 2nd class
+Sergeant 3rd class
+Sergeant 4th class
+Staff Sergeant 1st class
+Staff Sergeant 2nd class
+Staff Sergeant 3rd class
+Staff Sergeant 4th class
+Staff Sergeant 5th class
+Staff Sergeant 6th class
+SFC 1st class
+SFC 2nd class
+SFC 3rd class
+SFC 4th class
+SFC 5th class
+SFC 6th class
+Master Sergeant 1st class
+Master Sergeant 2nd class
+Master Sergeant 3rd class
+Master Sergeant 4th class
+Master Sergeant 5th class
+Master Sergeant 6th class
+Second Lieutenant 1st class
+Second Lieutenant 2nd class
+Second Lieutenant 3rd class
+Second Lieutenant 4th class
+Second Lieutenant 5th class
+Second Lieutenant 6th class
+Second Lieutenant 7th class
+Second Lieutenant 8th class
+First Lieutenant 1st class
+First Lieutenant 2nd class
+First Lieutenant 3rd class
+First Lieutenant 4th class
+First Lieutenant 5th class
+First Lieutenant 6th class
+First Lieutenant 7th class
+First Lieutenant 8th class
+Captain 1st class
+Captain 2nd class
+Captain 3rd class
+Captain 4th class
+Captain 5th class
+Captain 6th class
+Captain 7th class
+Captain 8th class
+Major 1st class
+Major 2nd class
+Major 3rd class
+Major 4th class
+Major 5th class
+Major 6th class
+Major 7th class
+Major 8th class
+Lieutenant Colonel 1st class
+Lieutenant Colonel 2nd class
+Lieutenant Colonel 3rd class
+Lieutenant Colonel 4th class
+Lieutenant Colonel 5th class
+Lieutenant Colonel 6th class
+Lieutenant Colonel 7th class
+Lieutenant Colonel 8th class
+Colonel 1st class
+Colonel 2nd class
+Colonel 3rd class
+Colonel 4th class
+Colonel 5th class
+Colonel 6th class
+Colonel 7th class
+Colonel 8th class
+Brigadier General 1st class
+Brigadier General 2nd class
+Brigadier General 3rd class
+Brigadier General 4th class
+Brigadier General 5th class
+Brigadier General 6th class
+Major General 1st class
+Major General 2nd class
+Major General 3rd class
+Major General 4th class
+Major General 5th class
+Major General 6th class
+Lieutenant General 1st class
+Lieutenant General 2nd class
+Lieutenant General 3rd class
+Lieutenant General 4th class
+Lieutenant General 5th class
+Lieutenant General 6th class
+General 1st class
+General 2nd class
+General 3rd class
+General 4th class
+General 5th class
+General 6th class
+Marshall 1st class

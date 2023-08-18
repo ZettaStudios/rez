@@ -1,0 +1,27 @@
+GROUP OK
+
+DEFAULTGROUP OK
+
+BUTTON ButtonOK
+-POSITIONX 674
+-POSITIONY 540
+-WIDTH 112
+-HEIGHT 44
+--TEX_UP "UI\UI_GameResult\OKUp.tga"
+--TEX_DOWN "UI\UI_GameResult\OKDown.tga"
+--TEX_FOCUSED "UI\UI_GameResult\OKfocus.tga"
+--TEX_DISABLED ""
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonSave
+-POSITIONX 567
+-POSITIONY 540
+-WIDTH 106
+-HEIGHT 44
+--TEX_UP "UI\UI_GameResult\saveUp.tga"
+--TEX_DOWN "UI\UI_GameResult\saveDown.tga"
+--TEX_FOCUSED "UI\UI_GameResult\saveFocus.tga"
+--TEX_DISABLED ""
+--KEEPPRESSED FALSE
+-END

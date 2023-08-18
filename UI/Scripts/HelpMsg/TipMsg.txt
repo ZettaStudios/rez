@@ -1,0 +1,19 @@
+--MSG_COUNT
+15
+--BEGIN
+Press "Q" key to change previous weapon.
+You can raise accuracy in crunch mode - "Ctrl" key.
+Press "B" key at respawn point to switch other backpack.
+You can send whisper by "/w ID" in chatting window.
+Press "Insert" to display distance to our team players.
+You can remove mini map with "Delete" key.
+You can adjust brightness with "Home" "End" key.
+You can adjust mouse sensitivity with "PgUp" "PgDown" key.
+Display entire map with "~" key.
+You can walk in silence with "Shift" key.
+Switch to other players view with "Space" bar while waiting for respawn.
+Check game play status window with "Tab" key.
+Press "F1" key to display help window.
+You can change weapon on the ground with "G" key.
+Press "E" key to plant or defuse C4 bomb.
+--END

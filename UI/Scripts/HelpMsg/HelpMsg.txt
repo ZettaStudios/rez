@@ -1,0 +1,505 @@
+SCROLLTEXT rara
+-POSITIONX 0
+-POSITIONY 120
+-WIDTH 800
+-HEIGHT 16
+--FONTNAME MSG=846
+--FONTSIZE 8
+--FONTBOLD TRUE
+--FONTITALIC FALSE
+--OUTLINE FALSE
+--OUTLINECOLOR 000000000
+--FONTCOLOR 255255000
+--DIRECTION UP
+--STOP CENTER
+--STOPTIME  3.0
+
+
+MSG msg
+--PRIORITY 5
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "RoundStart"
+--MSG MSG=24941
+--MSG MSG=24942
+-END
+
+MSG msg
+--PRIORITY 4
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "IHaveC4"
+--MSG MSG=24943
+--MSG MSG=24944
+-END
+
+MSG msg
+--PRIORITY 3
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "C4Drop"
+--MSG MSG=24945
+--MSG MSG=24946
+-END
+
+MSG msg
+--PRIORITY 2
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "C4Plant"
+--MSG MSG=24947
+--MSG MSG=24948
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "C4Area"
+--MSG MSG=24949
+--MSG MSG=24950
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "C4PickUp"
+--MSG MSG=24951
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "TM"
+--DUTY "BL"
+--EVENT "CanNotPlantC4"
+--MSG MSG=24952
+--MSG MSG=24953
+-END
+
+MSG msg
+--PRIORITY 3
+--MATCHTYPE "TM"
+--DUTY "GR"
+--EVENT "RoundStart"
+--MSG MSG=24954
+--MSG MSG=24955
+-END
+
+MSG msg
+--PRIORITY 2
+--MATCHTYPE "TM"
+--DUTY "GR"
+--EVENT "C4Plant"
+--MSG MSG=24956
+--MSG MSG=24957
+-END
+
+MSG msg
+--PRIORITY 2
+--MATCHTYPE "TM"
+--DUTY "GR"
+--EVENT "C4Found"
+--MSG MSG=24958
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "TM"
+--DUTY "GR"
+--EVENT "C4Area"
+--MSG MSG=24959
+-END
+
+MSG msg
+--PRIORITY 4
+--MATCHTYPE "GM"
+--DUTY "BL"
+--EVENT "RoundStart"
+--MSG MSG=24960
+--MSG MSG=24961
+-END
+
+MSG msg
+--PRIORITY 3
+--MATCHTYPE "GM"
+--DUTY "BL"
+--EVENT "IHaveC4"
+--MSG MSG=24962
+--MSG MSG=24963
+-END
+
+MSG msg
+--PRIORITY 2
+--MATCHTYPE "GM"
+--DUTY "BL"
+--EVENT "C4Drop"
+--MSG MSG=24964
+--MSG MSG=24965
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "GM"
+--DUTY "BL"
+--EVENT "C4Plant"
+--MSG MSG=24966
+--MSG MSG=24967
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "GM"
+--DUTY "BL"
+--EVENT "C4Area"
+--MSG MSG=24968
+--MSG MSG=24969
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "GM"
+--DUTY "BL"
+--EVENT "C4PickUp"
+--MSG MSG=24970
+-END
+
+MSG msg
+--PRIORITY 3
+--MATCHTYPE "GM"
+--DUTY "GR"
+--EVENT "RoundStart"
+--MSG MSG=24971
+--MSG MSG=24972
+-END
+
+MSG msg
+--PRIORITY 2
+--MATCHTYPE "GM"
+--DUTY "GR"
+--EVENT "C4Plant"
+--MSG MSG=24973
+--MSG MSG=24974
+-END
+
+MSG msg
+--PRIORITY 2
+--MATCHTYPE "GM"
+--DUTY "GR"
+--EVENT "C4Found"
+--MSG MSG=24975
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "GM"
+--DUTY "GR"
+--EVENT "C4Area"
+--MSG MSG=24976
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "TD"
+--DUTY ""
+--EVENT "RoundStart"
+--MSG MSG=24977
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "RoundStart"
+--MSG MSG=24977
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "NomoreBullet"
+--MSG MSG=24978
+--MSG MSG=24979
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "HostChange"
+--MSG MSG=24980
+--MSG MSG=24981
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "HostChangeSuccess"
+--MSG MSG=24982
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "CanNotAltTap"
+--MSG MSG=24983
+--MSG MSG=24984
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "BuyTimeOver"
+--MSG MSG=24985
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "NotBuyArea"
+--MSG MSG=24986
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "NoMoreTP"
+--MSG MSG=24987
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "DonHaveWeapon"
+--MSG MSG=24988
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "HaveSameKindThrow"
+--MSG MSG=24989
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "ThrowSlotFull"
+--MSG MSG=24990
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "AmmoFull"
+--MSG MSG=24991
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "Reloading"
+--MSG MSG=24992
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "DM"
+--DUTY ""
+--EVENT "UnknownError"
+--MSG MSG=24993
+-END
+
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano1"
+--MSG "Mutants can evolve by "
+--MSG "earning points"
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano2"
+--MSG "Mutants will look different "
+--MSG "as they evolve"
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano3"
+--MSG "Soldiers can receive items"
+--MSG "and ammo from supply box drops"
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4_1"
+--MSG "One user will randomly"
+--MSG "be selected as Xeno."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4_2"
+--MSG "Mutants cannot revive when"
+--MSG "killed with Melee attacks."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4_3"
+--MSG "Soldiers can become Commandos"
+--MSG "under certain conditions."
+-END
+
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainEKey"
+--MSG "You can earn 1 point by pressing"
+--MSG " "E" key near dead Mutated Ghost"
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainEKeyNano3"
+--MSG "You can earn points and evolve"
+--MSG "by pressing E near dead Mutants."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano3_1"
+--MSG "Add 20%% Attack Power is added"
+--MSG "to soldiers per mutant killed."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano3_2"
+--MSG "Hero comes with a unique weapon"
+--MSG "with alt fire and special armor."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano3_3"
+--MSG "Some damage taken as mutants"
+--MSG "will trigger rapid evolution."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano3_4"
+--MSG "All Mutants are able to use"
+--MSG "their skills when mutated."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano3_5"
+--MSG "Mutants not killed with a headshot"
+--MSG "will respawn in 5 seconds."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "MedicalGunS"
+--MSG "HypoMed"
+--MSG ": Restore 20 HP"
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "MedicalGunL"
+--MSG "Large HypoMed"
+--MSG " : Restores 60 HP"
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "CM"
+--DUTY ""
+--EVENT "HPFullUseMedicalgun"
+--MSG "You can save HP items"
+--MSG "in Inventory."
+-END
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4EX_1"
+--MSG "1 player has been randomly generated"
+--MSG "as a Havoc."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4EX_2"
+--MSG "Mutants killed by a melee weapon"
+--MSG "cannot respawn."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4EX_3"
+--MSG "In specific conditions, a mercenary"
+--MSG "can transform into Ranger."
+-END
+
+MSG msg
+--PRIORITY 1
+--MATCHTYPE "BM"
+--DUTY ""
+--EVENT "ExplainNano4EX_4"
+--MSG "You can play Havoc and Ranger "
+--MSG "in a certain Mutation 4 Map."
+-END
+
+-END

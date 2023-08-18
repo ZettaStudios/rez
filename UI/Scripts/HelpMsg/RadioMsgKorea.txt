@@ -1,0 +1,94 @@
+RADIOMSG "Response/Report" "radio/gr/RadioMessage_GR_Z" "radio/bl/RadioMessage_BL_Z"
+( 
+  ( "1. Yes" "700" "400"
+    -MSG "Roger that."
+    -MSG "Affirmative."
+    -MSG "Roger."
+  )
+  
+  ( "2. No" "700" "420"
+    -MSG "Negative."
+    -MSG "Negative. That will not count."
+    -MSG "Negative. Over & out."
+  )
+  
+  ( "3. Found enemies" "700" "440"
+    -MSG "Enemy in sight."
+    -MSG "Enemy spotted."
+  )
+  
+  ( "4. Found C4" "700" "460"
+    -MSG "Bomb spotted."
+    -MSG "Bomb spotted."
+  )
+  
+  ( "5. All Clear" "700" "480"
+    -MSG "Sector clear."
+    -MSG "Area clear."
+  )
+
+  ( "6. Cancel" "700" "500" 
+    -MSG ""
+  )
+)
+
+RADIOMSG "Encouragement/Demand" "radio/gr/RadioMessage_GR_X" "radio/bl/RadioMessage_BL_X"
+( 
+  ( "1. Nice shot" "700" "400"
+    -MSG "Nice shot."
+    -MSG "Good shot."
+    -MSG "Good job."
+  )
+  
+  ( "2. Fighting" "700" "420"
+    -MSG "Take¡¯em down team."
+    -MSG "Keep going & stay strong team."
+    -MSG "Keep going & stay strong team."
+  )
+  
+  ( "3. Team lead" "700" "440"
+    -MSG "Follow me."
+    -MSG "Watch my back."
+  )
+  
+  ( "4. Backup request" "700" "460"
+    -MSG "Need assistance."		
+    -MSG "Cover me."
+  )
+  
+  ( "5. Vanguard Standby" "700" "480"
+    -MSG "Keep front lines team."
+  )
+
+  ( "6. Cancel" "700" "500" 
+    -MSG ""
+  )
+)
+
+RADIOMSG "All" "radio/gr/RadioMessage_GR_C" "radio/bl/RadioMessage_BL_C"
+( 
+  ( "1. Backup Area A" "700" "400"
+    -MSG "A site."
+  )
+  
+  ( "2. Backup Area B" "700" "420"
+    -MSG "B site."
+  )
+  
+  ( "3. Defense" "700" "440"
+    -MSG "Team, Hold position."
+  )
+  
+  ( "4. All-in" "700" "460"
+    -MSG "Stick together team."
+  )
+  
+  ( "5. Enforcing Breakthrough" "700" "480"
+    -MSG "Storm the front!!!"
+  )
+
+  ( "6. Cancel" "700" "500" 
+    -MSG ""
+  )
+)
+

@@ -1,0 +1,107 @@
+GROUP GACHA_HELP_BASE
+
+DEFAULTGROUP GACHA_HELP_BASE
+
+IMAGE ImageBlackBG
+-POSITIONX 0
+-POSITIONY 0
+-WIDTH 800
+-HEIGHT 600
+--TEX_PATH     "UI\UI_Common\BlackBG.TGA"
+--USE_ALPHA     FALSE
+--TRANSPARENCY 0
+-END
+
+IMAGE ImageGachaHelpBG
+-POSITIONX 0
+-POSITIONY 0
+-WIDTH 800
+-HEIGHT 600
+--TEX_PATH     "UI\UI_GachaShop\UI_GachaItemStrip\GachaItemStrip_2.tga"
+--USE_ALPHA     FALSE
+--TRANSPARENCY 0
+-END
+
+BUTTON ButtonGachaHelpCancel
+-POSITIONX 357
+-POSITIONY 543
+-WIDTH 71
+-HEIGHT 30
+--TEX_UP       "UI\UI_ReBuy\CloseUp.tga"
+--TEX_DOWN     "UI\UI_ReBuy\CloseDown.tga"
+--TEX_FOCUSED  "UI\UI_ReBuy\CloseFocus.TGA"
+--TEX_DISABLED "UI\UI_ReBuy\CloseDown.tga"
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonGachaCapsuleHelp
+-POSITIONX 99
+-POSITIONY 18
+-WIDTH 146
+-HEIGHT 45
+--TEX_UP       "UI\UI_GachaShop\UI_GachaHelp\HelpCapsuleBtnUp.tga"
+--TEX_DOWN     "UI\UI_GachaShop\UI_GachaHelp\HelpCapsuleBtnDown.tga"
+--TEX_FOCUSED  "UI\UI_GachaShop\UI_GachaHelp\HelpCapsuleBtnFocus.tga"
+--TEX_DISABLED "UI\UI_GachaShop\UI_GachaHelp\HelpCapsuleBtnDown.tga"
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonGachaBuyHelp
+-POSITIONX 251
+-POSITIONY 18
+-WIDTH 146
+-HEIGHT 45
+--TEX_UP       "UI\UI_GachaShop\UI_GachaHelp\HelpBuyBtnUp.tga"
+--TEX_DOWN     "UI\UI_GachaShop\UI_GachaHelp\HelpBuyBtnDown.tga"
+--TEX_FOCUSED  "UI\UI_GachaShop\UI_GachaHelp\HelpBuyBtnFocus.tga"
+--TEX_DISABLED "UI\UI_GachaShop\UI_GachaHelp\HelpBuyBtnDown.tga"
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonGachaButtonHelp
+-POSITIONX 403
+-POSITIONY 18
+-WIDTH 146
+-HEIGHT 45
+--TEX_UP       "UI\UI_GachaShop\UI_GachaHelp\HelpButtonBtnUp.tga"
+--TEX_DOWN     "UI\UI_GachaShop\UI_GachaHelp\HelpButtonBtnDown.tga"
+--TEX_FOCUSED  "UI\UI_GachaShop\UI_GachaHelp\HelpButtonBtnFocus.tga"
+--TEX_DISABLED "UI\UI_GachaShop\UI_GachaHelp\HelpButtonBtnDown.tga"
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonGachaStripHelp
+-POSITIONX 555
+-POSITIONY 18
+-WIDTH 146
+-HEIGHT 45
+--TEX_UP       "UI\UI_GachaShop\UI_GachaHelp\HelpStripBtnUp.tga"
+--TEX_DOWN     "UI\UI_GachaShop\UI_GachaHelp\HelpStripBtnDown.tga"
+--TEX_FOCUSED  "UI\UI_GachaShop\UI_GachaHelp\HelpStripBtnFocus.tga"
+--TEX_DISABLED "UI\UI_GachaShop\UI_GachaHelp\HelpStripBtnDown.tga"
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonFlowMoveLeft
+-POSITIONX 231
+-POSITIONY 546
+-WIDTH 29
+-HEIGHT 22
+--TEX_UP "UI\UI_GachaShop\GachaLeftBtnUP.tga"
+--TEX_DOWN "UI\UI_GachaShop\GachaLeftBtnDOWN.tga"
+--TEX_FOCUSED "UI\UI_GachaShop\GachaLeftBtnFOCUS.tga"
+--TEX_DISABLED "UI\UI_GachaShop\GachaLeftBtnDOWN.tga"
+--KEEPPRESSED FALSE
+-END
+
+BUTTON ButtonFlowMoveRight
+-POSITIONX 539
+-POSITIONY 546
+-WIDTH 29
+-HEIGHT 22
+--TEX_UP "UI\UI_GachaShop\GachaRightBtnUP.tga"
+--TEX_DOWN "UI\UI_GachaShop\GachaRightBtnDOWN.tga"
+--TEX_FOCUSED "UI\UI_GachaShop\GachaRightBtnFOCUS.tga"
+--TEX_DISABLED "UI\UI_GachaShop\GachaRightBtnDOWN.tga"
+--KEEPPRESSED FALSE
+-END
